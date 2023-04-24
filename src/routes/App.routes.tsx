@@ -1,15 +1,9 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import { authRoutes } from "../../src/modules/auth/routes/auth.routes";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import { authRoutes } from '../../src/modules/auth/routes/auth.routes';
 
 export const Routes = () => {
-
-  const routes = [
-   ...authRoutes
-  ]
-
+  const routes = [...authRoutes];
 
   const router = createBrowserRouter(routes, {
     future: {
@@ -17,9 +11,5 @@ export const Routes = () => {
     },
   });
 
-
-  return (
-   <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 };
-
