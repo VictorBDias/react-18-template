@@ -1,10 +1,15 @@
+import './App.css';
+import { ThemeProvider } from 'styled-components';
 
-import "./App.css";
-import { Routes } from "./routes";
+import ligthTheme from 'shared/styles/themes/ligth';
+
+import { Routes } from './routes';
 
 function App() {
   return (
-    <Routes />
+    <ThemeProvider theme={ligthTheme}>
+      <Routes />
+    </ThemeProvider>
   );
 }
 

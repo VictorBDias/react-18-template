@@ -22,10 +22,16 @@
     /* Paths */
     "baseUrl": "./src",
     "paths": {
-      "@modules/*": ["modules/*"],
-      "@routes/*": ["routes/*"],
+      "modules/*": ["modules/*"],
+      "routes/*": ["routes/*"]
     }
   },
-  "include": ["src", "**/*.ts", "**/*.tsx", "src/types/custom.d.ts", "generators/templates/repositories/useRepository.ts.bs"],
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/types/custom.d.ts",
+    "generators/templates/repositories/useRepository.ts.bs"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
