@@ -61,7 +61,6 @@ export const Paragraph = styled.p<Theme>`
 
   ${props => {
     const { variant, theme } = props;
-    console.log(props);
     switch (variant) {
       case 'title':
         return css`
