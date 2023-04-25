@@ -3,29 +3,22 @@ import { shade } from 'polished';
 import { type INewColors } from '../themes/theme.interfaces';
 
 const colors: INewColors = {
-  // VISUAL IDENTITY-These are dynamic the colors
-  primary: '#811b39',
-  accent: '#ffa00c',
+  primary: '#80CAFF',
+  accent: '#bb6bd9',
   hoverAccent: '#ffa00c10',
-
-  // THEMES-These colors change according to the theme
   background: '#F5F5F5',
   surface: '#FFFFFF',
   shadow: '#00000015',
-  fullColor: '#000000', // strong
-  subColor: '#00000075', // normal
-  halfColor: '#00000050', // opaque
-  helpColor: '#00000025', // almostSmoked
-  hoverColor: '#00000010', // hover
+  fullColor: '#000000',
+  subColor: '#00000075',
+  halfColor: '#00000050',
+  helpColor: '#00000025',
+  hoverColor: '#00000010',
   faintColor: '#00000003',
-
-  // FEEDBACK
   info: '#1D89CC',
-  success: '#00C07F', // greenCorrect, online
-  error: '#FF5248', // redWrong, busy
-  warning: '#FCC325', // yellowWarning
-
-  // Dinamic theme colors
+  success: '#00C07F',
+  error: '#FF5248',
+  warning: '#FCC325',
   accentText: '#fff',
   primaryText: '#fff',
   shadeSurface: shade(0.07, '#fff'),

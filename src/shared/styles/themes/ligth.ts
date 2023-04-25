@@ -9,15 +9,11 @@ import { type ITheme } from './theme.interfaces';
 const ligthTheme: ITheme = {
   colors: {
     ...colors,
-
-    //* TEXT
     strong: '#000',
     normal: '#000000CC',
     opaque: '#00000080',
     smoked: '#0000004D',
     almostSmoked: '#00000020',
-
-    //* Static colors
     hover: '#0000000D',
     shadow: '#00000033',
     greenCorrect: '#7AC051',
@@ -28,9 +24,8 @@ const ligthTheme: ITheme = {
     busy: '#F44D4D',
     gray: '#AAAAAA',
   },
-
   header: {
-    background: '#811B39',
+    background: '#80CAFF',
     text: '#fff',
   },
   shadows,

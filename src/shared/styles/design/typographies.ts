@@ -2,7 +2,7 @@ import { type ITypographies } from '../themes/theme.interfaces';
 
 const typographies: ITypographies = {
   title: {
-    family: `"Montserrat", sans-serif`,
+    family: `"Lato", sans-serif`,
     size: '24px',
     weight: 'bold',
   },
@@ -12,12 +12,12 @@ const typographies: ITypographies = {
     weight: 'bold',
   },
   subTitle: {
-    family: `"Montserrat", sans-serif`,
+    family: `"Lato", sans-serif`,
     size: '16px',
     weight: 'bold',
   },
   accentSubTitle: {
-    family: `"Montserrat", sans-serif`,
+    family: `"Lato", sans-serif`,
     size: '16px',
     weight: 'bold',
   },
