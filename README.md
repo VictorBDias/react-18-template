@@ -50,7 +50,6 @@ Complete ***React 18.2*** template with multiple out of the box configurations u
 - Absolute imports
 - Styled components
 - Axios
-
 <br>
 
 ## **Author**
