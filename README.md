@@ -53,7 +53,7 @@ Complete ***React 18.2*** template with multiple out of the box configurations u
 
 <br>
 
-### **Author**
+## **Author**
 
 | [![Victor Batisttete Dias](https://avatars.githubusercontent.com/u/30843291?size=100)](https://github.com/victorbdias) |
 | ----------------------------------------------------------------------------------------------------------------- |
