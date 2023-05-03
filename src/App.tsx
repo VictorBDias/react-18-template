@@ -1,13 +1,13 @@
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 
-import ligthTheme from 'shared/styles/themes/ligth';
+import { theme } from 'shared/design/theme';
 
 import { Routes } from './routes';
 
 function App() {
   return (
-    <ThemeProvider theme={ligthTheme}>
+    <ThemeProvider theme={theme}>
       <Routes />
     </ThemeProvider>
   );
