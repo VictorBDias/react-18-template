@@ -6,6 +6,8 @@
   <br>
 </h1>
 
+ <br>
+  
 <p align="center">
   <strong>Complete React 18.2 template with multiple out of the box configurations using best practices and design patterns.</strong>
 </p>
