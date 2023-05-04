@@ -2,11 +2,10 @@
   <br>
   <img src="https://github.com/VictorBDias/react-18-template/blob/main/src/assets/react.png" alt="React" width="120">
   <br>
+  <br>
     Template for advanced React projects
   <br>
 </h1>
-
- <br>
   
 <p align="center">
   <strong>Complete React 18.2 template with multiple out of the box configurations using best practices and design patterns.</strong>
